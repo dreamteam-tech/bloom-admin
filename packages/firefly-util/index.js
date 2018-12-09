@@ -1,0 +1,1 @@
+export { normalizeFloat } from './normalizeFloat';

@@ -1,0 +1,15 @@
+.b-images-grid {
+  &__grid {
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+  }
+
+  &__item {
+    @include elevation(2);
+    background: {
+      color: #fff;
+    }
+  }
+}

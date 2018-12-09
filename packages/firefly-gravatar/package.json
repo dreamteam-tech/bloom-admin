@@ -1,0 +1,7 @@
+{
+  "name": "firefly-gravatar",
+  "version": "1.0.0",
+  "dependencies": {
+    "blueimp-md5": "^2.10.0"
+  }
+}

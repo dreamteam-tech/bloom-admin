@@ -1,0 +1,50 @@
+.notification {
+  &__container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1008;
+  }
+
+  &__text {
+    color: #fff;
+  }
+
+  &__title {
+    font-family: $flexy-heading-font;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  &__notification {
+    cursor: pointer;
+    min-width: 240px;
+    padding: 1rem;
+    z-index: 10010;
+    position: relative;
+    margin: 1rem 1rem 0 0;
+    border-radius: 2px;
+    background: {
+      color: rgba(flexy-color(text), .9);
+    }
+    border-bottom: 4px solid flexy-color();
+    transition: all 0.2s ease;
+    transform: scale(0.4);
+    opacity: 0;
+    visibility: hidden;
+
+    &--active {
+      visibility: visible;
+      transform: scale(1);
+      opacity: 1;
+    }
+
+    &--error {
+      border-color: flexy-color(error);
+    }
+
+    &--success {
+      border-color: flexy-color(success);
+    }
+  }
+}

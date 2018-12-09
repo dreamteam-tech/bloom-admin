@@ -1,0 +1,11 @@
+.b-dropzone {
+  border: 2px dashed rgba(#000, .1);
+  border-radius: $flexy-theme-border-radius;
+  padding: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(flexy-color(), .1);
+    border-color: flexy-color();
+  }
+}

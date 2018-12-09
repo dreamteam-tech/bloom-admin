@@ -1,0 +1,16 @@
+.b-content {
+  padding: 1rem;
+  background: {
+    color: #fff;
+  }
+
+  &--breadcrumbs {
+    border-bottom: 1px solid rgba(#000, .1);
+  }
+
+  &--no-background {
+    background: {
+      color: transparent;
+    }
+  }
+}

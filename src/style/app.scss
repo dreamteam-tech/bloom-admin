@@ -1,0 +1,40 @@
+@import "~font-fira-sans/firasans.css";
+@import "~firefly/style/defaults";
+@import "settings";
+@import "~firefly/style/firefly";
+@import "mixin";
+@import "transition";
+
+a {
+  &:active {
+    outline-offset: 2px;
+    outline: rgba(flexy-color(), 0.5) solid 3px;
+  }
+}
+
+@import 'block/app';
+@import 'block/contest';
+@import 'block/container';
+@import "block/body";
+@import "block/settings-detail";
+@import "block/images-grid";
+@import "block/content";
+@import "block/partner";
+@import "block/menu";
+@import "block/main";
+@import "block/toggle-link";
+@import "block/detail-view";
+@import "block/icon";
+@import "block/timer";
+@import "block/logo";
+@import "block/layout";
+@import "block/text";
+@import "block/image-list";
+@import "block/heading";
+@import "block/notification";
+@import "block/error";
+@import "block/link";
+@import "block/table";
+@import "block/toolbar";
+@import "block/dropzone";
+@import "block/warning";

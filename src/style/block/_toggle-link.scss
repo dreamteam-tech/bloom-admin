@@ -1,0 +1,8 @@
+.toggle-link {
+  cursor: pointer;
+  color: flexy-color(error);
+
+  &--enabled {
+    color: flexy-color(success);
+  }
+}
